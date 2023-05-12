@@ -27,7 +27,7 @@ M.general = {
     ["<C-s>"] = { "<cmd> w <CR>", "save file" },
 
     -- Copy all
-    ["<C-c>"] = { "<cmd> %y+ <CR>", "copy whole file" },
+    -- ["<C-c>"] = { "<cmd> %y+ <CR>", "copy whole file" },
 
     -- line numbers
     ["<leader>n"] = { "<cmd> set nu! <CR>", "toggle line number" },
@@ -247,7 +247,8 @@ M.nvimtree = {
 
   n = {
     -- toggle
-    ["<C-n>"] = { "<cmd> NvimTreeToggle <CR>", "toggle nvimtree" },
+    -- ["<C-n>"] = { "<cmd> NvimTreeToggle <CR>", "toggle nvimtree" },
+    ["<F7>"] = { "<cmd> NvimTreeToggle <CR>", "toggle nvimtree" },
 
     -- focus
     ["<leader>e"] = { "<cmd> NvimTreeFocus <CR>", "focus nvimtree" },
