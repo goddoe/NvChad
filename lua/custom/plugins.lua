@@ -21,7 +21,7 @@ local plugins = {
   {
   "goddoe/nvim-ai-assistant",
   lazy=false,
-  init = function()
+  config = function()
     require("nvim-ai-assistant").setup()
   end
   }
